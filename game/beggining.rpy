@@ -1,5 +1,5 @@
 label beggining:
-    
+
 
     scene bg room #background
 
@@ -24,4 +24,8 @@ label beggining:
 
     i "No. Who I was."
 
+    show inthedark
+
+    i "Adapt, conform and survive by knowing what's required of you or not... rebel and try to change the characters, challenge fate and face impossible odds."
+    
     return
