@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 11, in script
+    define j = Character(random.choice(['p1','p3','p4']))
+  File "game/script.rpy", line 11, in <module>
+    define j = Character(random.choice(['p1','p3','p4']))
+NameError: name 'random' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 11, in script
+    define j = Character(random.choice(['p1','p3','p4']))
+  File "C:\Users\User\renpy\renpy-7.3.5-sdk\renpy\ast.py", line 2108, in execute
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "C:\Users\User\renpy\renpy-7.3.5-sdk\renpy\python.py", line 2052, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 11, in <module>
+    define j = Character(random.choice(['p1','p3','p4']))
+NameError: name 'random' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+Dislexia Fatal 1.0
+Sat Nov 14 16:04:45 2020
